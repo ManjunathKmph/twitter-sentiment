@@ -1,13 +1,5 @@
 #Script to start the spark streaming to fetch tweets from twitter.
 
-#Set the kafka bin path to PATH variable.
-export KAFKA_HOME=/usr/hdp/current/kafka-broker
-export PATH=$PATH:$KAFKA_HOME/bin
-
-#Command to create the project related kafka topics.
-kafka-topics.sh --create --topic twitterTopic --zookeeper localhost:2181 --replication-factor 1 --partitions 1
-kafka-topics.sh --create --topic sentimentTopic --zookeeper localhost:2181 --replication-factor 1 --partitions 1
-
 #command to build the twitter streaming jar file.
 sbt assembly
 
