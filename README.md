@@ -28,7 +28,15 @@ git clone https://github.com/ManjunathKmph/twitterstreamingproject.git
   * chmod 777 start-streaming.sh
 
 #Steps to run the project
-1. Open the termainal and type the following line
+1. Open the terminal and type the following line
   * ./start-server.sh  -- To check the server is up and running successfully, in the console it will print use the url localhost:8888/web
-2. Hit the http://localhost:8888/web in the browser and it show the following image.
+2. Hit the http://localhost:8888/web in the browser and should show the following image.
+3. Open another terminal and type the follwing line
+  * ./start-streaming.sh
+4. Refresh the browser url and should show the following image
+
+#How to start sentiment analysis for the hash tag
+1. In the browser url, type the hash tag name(ex:- food) and click on show tweets. It should show the following image.
+
+#Note:- In the above, code will search the mentioned hash tags in the tweets for the last 60 seconds, if it appear in the tweet then it will do the sentiment analysis using Standford NLP library and marks the tweet as positive/negaitve/neutral/notunderstood. For the mentioned hash tag if the sentiment graph doesn't show then please wait till someone uses the hashtag in the last 60 seconds.
    
