@@ -19,7 +19,7 @@ import com.typesafe.config.ConfigFactory
  * @version 1.0
  * 
  * Class connects to twitter using apache spark streaming api and twitter streaming api to fetch the popular ten hash tags in
- * the last 60 seconds and also does the sentiment analysis on the tweets using standfor nlp library.
+ * the last 60 seconds and also does the sentiment analysis on the tweets using stanford nlp library.
  *
  */
 object TwitterStreaming {
