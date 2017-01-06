@@ -38,7 +38,7 @@ git clone https://github.com/ManjunathKmph/twitterstreamingproject.git
 ![Alt Inital Streaming Screen](/images/second.png "Inital Streaming Screen")
 
 #How to start sentiment analysis for the hash tag
-1. In the browser url, type the hash tag name(ex:- food) and click on show tweets. It should show the following image.
+1. In the browser url, type the hash tag name(ex:- food) in the textbox and click on show tweets. It should show the following image.
 ![Alt Sentiment Analysis Screen](/images/third.png "Sentiment Analysis Screen")
 
 Note:- In the above, code will search the mentioned hash tags in the tweets for the last 60 seconds, if it appear in the tweet then it will do the sentiment analysis using Stanford NLP library and marks the tweet as positive/negaitve/neutral/notunderstood. For the mentioned hash tag if the sentiment graph doesn't show then please wait till someone uses the hashtag in the last 60 seconds.
