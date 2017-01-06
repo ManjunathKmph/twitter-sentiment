@@ -10,7 +10,7 @@
 git clone https://github.com/ManjunathKmph/twitterstreamingproject.git
 
 #Steps to prepare the project
-1. Download the jar from the below link and copy it into twitterstreamingproject/jars folder.
+1. Download the Stanford NLP models jar from the below link and copy it into twitterstreamingproject/jars folder.
   * https://drive.google.com/file/d/0B89AibnP3IZzcUhmZ2o3Q2lmM2M/view?usp=sharing
 2. Open the file from the path src/main/resources/application.properties and change the values for the following key
   * twitter4j.oauth.consumerKey
@@ -31,12 +31,15 @@ git clone https://github.com/ManjunathKmph/twitterstreamingproject.git
 1. Open the terminal and type the following line
   * ./start-server.sh  -- To check the server is up and running successfully, in the console it will print use the url localhost:8888/web
 2. Hit the http://localhost:8888/web in the browser and should show the following image.
+![Alt Initial Screen](/images/initialscreen.png "Initial Screen")
 3. Open another terminal and type the follwing line
   * ./start-streaming.sh
-4. Refresh the browser url and should show the following image
+4. Refresh the browser url and should show the following image.
+![Alt Inital Streaming Screen](/images/second.png "Inital Streaming Screen")
 
 #How to start sentiment analysis for the hash tag
 1. In the browser url, type the hash tag name(ex:- food) and click on show tweets. It should show the following image.
+![Alt Sentiment Analysis Screen](/images/third.png "Sentiment Analysis Screen")
 
-#Note:- In the above, code will search the mentioned hash tags in the tweets for the last 60 seconds, if it appear in the tweet then it will do the sentiment analysis using Standford NLP library and marks the tweet as positive/negaitve/neutral/notunderstood. For the mentioned hash tag if the sentiment graph doesn't show then please wait till someone uses the hashtag in the last 60 seconds.
+Note:- In the above, code will search the mentioned hash tags in the tweets for the last 60 seconds, if it appear in the tweet then it will do the sentiment analysis using Stanford NLP library and marks the tweet as positive/negaitve/neutral/notunderstood. For the mentioned hash tag if the sentiment graph doesn't show then please wait till someone uses the hashtag in the last 60 seconds.
    
