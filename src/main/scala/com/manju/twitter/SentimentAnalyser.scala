@@ -19,7 +19,7 @@ import edu.stanford.nlp.sentiment.SentimentCoreAnnotations.SentimentAnnotatedTre
 object SentimentAnalyser {
  
   /*
-   * Fetching custom Sentiment value based on conditions from the standford sentiment value.
+   * Fetching custom Sentiment value based on conditions from the stanford sentiment value.
    */
   def fetchSentimentType(sentiment:Int): String = {
       sentiment match {
@@ -34,7 +34,7 @@ object SentimentAnalyser {
   
   /*
    * Real fun begins from this method where it does the sentiment analysis on the tweet
-   * using Standford NLP library.
+   * using Stanford NLP library.
    */
   def detectSentiment(message:String): String = {
     //if the message is blank then return the sentiment value as not understood.
@@ -45,7 +45,7 @@ object SentimentAnalyser {
     val props = new Properties()
     props.setProperty("annotators", "tokenize, ssplit, pos, lemma, parse, sentiment")
     val pipeline = new StanfordCoreNLP(props)
-    //Calling standford NLP api to process the message.
+    //Calling stanford NLP api to process the message.
     val annotation = pipeline.process(message)
     
     var sentiment = 0
