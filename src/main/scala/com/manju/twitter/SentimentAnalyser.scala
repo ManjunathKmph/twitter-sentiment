@@ -13,7 +13,7 @@ import edu.stanford.nlp.sentiment.SentimentCoreAnnotations.SentimentAnnotatedTre
  * @author Manjunath Kempaiah
  * @version 1.0
  * 
- * Class does the sentiment analysis on the tweets using standford nlp library.
+ * Class does the sentiment analysis on the tweets using stanford nlp library.
  *
  */
 object SentimentAnalyser {
