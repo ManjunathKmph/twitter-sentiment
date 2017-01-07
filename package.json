@@ -1,7 +1,7 @@
 {
-  "name": "twitterstreamingproject",
+  "name": "twitter-sentiment",
   "version": "1.0.0",
-  "description": "Twitter Streaming Project",
+  "description": "Twitter Sentiment Project",
   "dependencies": {
     "express": "4.10.2",
 	"socket.io": "1.7.2",
