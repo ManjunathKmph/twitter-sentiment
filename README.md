@@ -7,7 +7,7 @@
 4. Download and Install SBT.
 
 #Clone the Project into the local machine
-git clone https://github.com/ManjunathKmph/twitterstreamingproject.git
+git clone https://github.com/ManjunathKmph/twitter-sentiment.git
 
 #Project Design
 ![Alt Project Design](/images/ProjectDesign.png "Project Design")
