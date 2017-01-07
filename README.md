@@ -13,7 +13,7 @@ git clone https://github.com/ManjunathKmph/twitterstreamingproject.git
 ![Alt Project Design](/images/ProjectDesign.png "Project Design")
 
 #Steps to prepare the project
-1. Download the Stanford NLP models jar from the below link and copy it into twitterstreamingproject/jars folder.
+1. Download the Stanford NLP models jar from the below link and copy it into twitter-sentiment/jars folder.
   * https://drive.google.com/file/d/0B89AibnP3IZzcUhmZ2o3Q2lmM2M/view?usp=sharing
 2. Open the file from the path src/main/resources/application.properties and change the values for the following key
   * twitter4j.oauth.consumerKey
